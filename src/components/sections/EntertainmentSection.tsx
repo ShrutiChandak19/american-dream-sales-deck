@@ -11,7 +11,7 @@ const attractions = [
     desc: "The largest indoor theme park in the Western Hemisphere."
   },
   {
-    title: "DreamWorks Water Park",
+    title: "DreamWorks",
     category: "Water Park",
     image: "https://images.unsplash.com/photo-1543832923-44667a44c804?auto=format&fit=crop&q=80&w=1200",
     desc: "Open year-round with the world's largest indoor wave pool."
@@ -47,7 +47,7 @@ export function EntertainmentSection({ scrollContainer }: Props) {
               viewport={vp}
               className="mb-6"
             >
-              <span className="text-gold tracking-[0.4em] uppercase text-[10px] font-bold mb-4 block">The Anchor of Experience</span>
+              <span className="text-gold tracking-[0.4em] uppercase text-[10px] font-bold mb-2 block">The Anchor of Experience</span>
               <h2 className="text-4xl md:text-7xl font-display text-white leading-tight">
                 Beyond <span className="text-gold italic">Traditional</span> Commerce
               </h2>
@@ -95,13 +95,13 @@ export function EntertainmentSection({ scrollContainer }: Props) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-700" />
               
-              <div className="absolute bottom-0 left-0 p-10 w-full">
-                <span className="text-[10px] uppercase tracking-[0.3em] text-gold/80 mb-3 block font-bold">{item.category}</span>
+              <div className="absolute bottom-0 left-0 p-8 w-full">
+                <span className="text-[10px] uppercase tracking-[0.3em] text-gold/80 mb-2 block font-bold">{item.category}</span>
                 <h3 className="text-2xl lg:text-3xl font-display mb-4 text-white">{item.title}</h3>
                 <p className="text-sm text-white/50 opacity-0 group-hover:opacity-100 transition-all translate-y-4 group-hover:translate-y-0 duration-500 font-light leading-relaxed">
                   {item.desc}
                 </p>
-                <div className="mt-8 flex items-center gap-3 text-gold font-black text-[10px] tracking-[0.2em] opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
+                <div className="mt-2 flex items-center gap-3 text-gold font-black text-[10px] tracking-[0.2em] opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
                   EXPLORE VENUE <ArrowRight size={14} />
                 </div>
               </div>

@@ -238,12 +238,12 @@ export function IntroSection({
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/80 backdrop-blur-[2px]" />
       </motion.div>
 
-      <div className="relative z-10 text-center px-6 max-w-7xl mx-auto flex flex-col items-center justify-center min-h-screen py-20">
+      <div className="relative z-10 text-center px-6 max-w-7xl mx-auto flex flex-col items-center justify-center min-h-screen ">
         <motion.div
           initial={{ opacity: 0, y: 30, filter: 'blur(20px)' }}
           whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 1.5, ease: LUXURY_EASE }}
-          className="flex flex-col items-center mb-16"
+          className="flex flex-col items-center mb-6"
         >
           <AnimatePresence mode="wait">
             <motion.div
@@ -271,7 +271,7 @@ export function IntroSection({
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9 }}
-                className="text-white/60 text-lg md:text-2xl font-light max-w-3xl mx-auto leading-relaxed mb-16 px-4"
+                className="text-white/60 text-lg md:text-2xl font-light max-w-3xl mx-auto leading-relaxed mb-6 px-4"
               >
                 {content.subtext}
               </motion.p>
@@ -309,7 +309,7 @@ export function IntroSection({
           transition={{ delay: 1.5, duration: 2 }}
           className="w-full max-w-5xl"
         >
-          <div className="flex flex-wrap justify-center gap-x-12 md:gap-x-32 gap-y-10 border-y border-white/5 py-12 md:py-20 backdrop-blur-md relative overflow-hidden rounded-[40px] bg-white/[0.03]">
+          <div className="flex flex-wrap justify-center gap-x-12 md:gap-x-32 gap-y-10 border-y border-white/5 py-8 md:py-10 backdrop-blur-md relative overflow-hidden rounded-[40px] bg-white/[0.03]">
             {/* Ambient Background Light in Stats Row */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gold/5 blur-[100px] opacity-20 pointer-events-none" />
             
@@ -335,7 +335,7 @@ export function IntroSection({
         animate={{ opacity: isVideoLoaded ? 1 : 0, x: 0 }}
         transition={{ delay: 1.5, duration: 0.8 }}
         onClick={() => setIsFilmOpen(true)}
-        className="absolute bottom-10 left-10 z-20 flex items-center gap-4 group"
+        className="absolute bottom-5 left-25 z-20 flex items-center gap-4 group"
       >
         <div className="relative">
           {/* Progress Ring */}
@@ -421,7 +421,7 @@ export function IntroSection({
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gold/40 flex flex-col items-center gap-2 pointer-events-none"
+        className="absolute bottom-5 left-1/2 -translate-x-1/2 text-gold/40 flex flex-col items-center gap-2 pointer-events-none"
       >
         <span className="text-[10px] uppercase tracking-widest font-bold">Discover</span>
         <ChevronDown size={24} />

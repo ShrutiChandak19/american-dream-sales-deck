@@ -37,7 +37,7 @@ export function EventsSection({ scrollContainer }: Props) {
       
       <div className="flex-1 flex flex-col justify-center max-w-7xl mx-auto w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-24">
-          <div className="lg:col-span-5 mb-8 lg:mb-0">
+          <div className="lg:col-span-6 mb-8 lg:mb-0">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -68,7 +68,7 @@ export function EventsSection({ scrollContainer }: Props) {
             </motion.button>
           </div>
 
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-6">
             <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 md:p-12 backdrop-blur-2xl">
                <h3 className="text-[10px] uppercase tracking-[0.3em] text-white/40 mb-8 border-b border-white/10 pb-6 font-black">Upcoming Global Activations</h3>
               
@@ -80,7 +80,7 @@ export function EventsSection({ scrollContainer }: Props) {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={vp}
                     transition={{ delay: i * 0.1 }}
-                    className="group flex items-center p-6 bg-white/[0.02] border border-white/5 rounded-3xl hover:border-gold/30 hover:bg-white/[0.05] transition-all cursor-pointer overflow-hidden"
+                    className="group flex items-center p-3 bg-white/[0.02] border border-white/5 rounded-3xl hover:border-gold/30 hover:bg-white/[0.05] transition-all cursor-pointer overflow-hidden"
                   >
                     <div className="flex flex-col items-center justify-center min-w-[100px] border-r border-white/10 mr-8">
                       <span className="text-gold font-display text-3xl font-medium tracking-tighter">{event.date.split(' ')[1]}</span>

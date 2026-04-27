@@ -28,7 +28,7 @@ export function FloatingCTA() {
   };
 
   return (
-    <div className="fixed bottom-10 right-10 z-[60] pointer-events-none">
+    <div className="fixed bottom-5 right-10 z-[60] pointer-events-none">
       <motion.button
         onClick={handleClick}
         initial={{ y: 100, opacity: 0 }}
