@@ -54,7 +54,7 @@ interface Props { scrollContainer?: React.RefObject<HTMLElement>; }
 export function SponsorshipSection({ scrollContainer }: Props) {
   const vp = { root: scrollContainer };
   return (
-    <section id="partnerships" className="snap-section min-h-screen py-24 px-8 md:px-24 relative overflow-hidden flex items-center justify-center">
+    <section id="partnerships" className="snap-section min-h-screen pt-32 pb-24 px-8 md:px-24 relative overflow-hidden flex items-center justify-center">
       <VideoBackground src="/videos/convention-expo.mp4" overlayOpacity={0.85} />
       
       <div className="max-w-7xl mx-auto relative z-10 w-full">

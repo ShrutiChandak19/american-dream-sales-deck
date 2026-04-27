@@ -5,18 +5,18 @@ import { Sparkles, Diamond, ShieldCheck, ChevronLeft, ChevronRight } from 'lucid
 // Real American Dream / The Avenue luxury wing press images
 const LUXURY_IMAGES = [
   {
-    src: 'https://media.cntraveler.com/photos/5f7c1c9e8b3f3c6e5b3b3b3b/master/w_1600,c_limit/American-Dream-Mall_The-Avenue_2020.jpg',
-    fallback: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/American_Dream_mall_entrance.jpg/1280px-American_Dream_mall_entrance.jpg',
+    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/American_Dream_Mall_-_The_Avenue.jpg/1280px-American_Dream_Mall_-_The_Avenue.jpg',
+    fallback: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200',
     label: 'The Avenue — Grand Promenade',
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/American_Dream_mall_entrance.jpg/1280px-American_Dream_mall_entrance.jpg',
-    fallback: 'https://images.squarespace-cdn.com/content/v1/5e3a0a9a8b3f3c6e5b3b3b3b/american-dream-the-avenue.jpg',
+    src: 'https://images.unsplash.com/photo-1567958451986-2de427a4a0be?auto=format&fit=crop&q=80&w=1200',
+    fallback: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200',
     label: 'Hermès & Dior — Flagship Studios',
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/American_Dream_mall_interior_atrium.jpg/1280px-American_Dream_mall_interior_atrium.jpg',
-    fallback: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/American_Dream_mall_entrance.jpg/1280px-American_Dream_mall_entrance.jpg',
+    src: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&q=80&w=1200',
+    fallback: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200',
     label: 'The Avenue — Interior Atrium',
   },
 ];
