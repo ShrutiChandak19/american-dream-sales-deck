@@ -2,7 +2,7 @@
 
 A fully interactive, browser-based sales deck for **American Dream** (East Rutherford, NJ) — the largest mall in the Western Hemisphere by GLA. Built as a high-impact pitch tool for retail tenants, brand sponsors, and event producers.
 
-**Live URL:** _[Deploy to Netlify/Vercel and add link here]_
+**Live URL:** https://american-dream-sales-deck-eight.vercel.app/
 
 ---
 
