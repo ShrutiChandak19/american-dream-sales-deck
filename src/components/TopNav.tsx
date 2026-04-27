@@ -35,10 +35,6 @@ export function TopNav({ isAutoPlay = false, onToggleAutoPlay }: Props) {
         >
           AD
         </button>
-        <div className="hidden md:block">
-          <p className="text-[10px] font-black tracking-[0.3em] text-white uppercase">American Dream</p>
-          <p className="text-[8px] text-white/40 uppercase tracking-widest leading-none">New Jersey Portfolio</p>
-        </div>
       </div>
 
       <div className="flex items-center gap-4 pointer-events-auto">

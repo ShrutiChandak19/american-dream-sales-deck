@@ -38,8 +38,8 @@ export function RetailSection({ scrollContainer }: Props) {
           viewport={vp}
             className="mb-8"
           >
-            <span className="text-gold tracking-[0.4em] uppercase text-xs font-bold mb-4 block">Commercial Hub</span>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-display text-white mb-6 leading-tight">
+            <span className="text-gold tracking-[0.4em] uppercase text-xs font-bold mb-2 block">Commercial Hub</span>
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-display text-white mb-4 leading-tight">
               The Data of <span className="text-gold italic">Dreaming</span>
             </h2>
           </motion.div>
@@ -49,13 +49,13 @@ export function RetailSection({ scrollContainer }: Props) {
             whileInView={{ opacity: 1 }}
             viewport={vp}
             transition={{ delay: 0.2 }}
-            className="text-white/70 text-lg md:text-xl font-light mb-12 max-w-xl leading-relaxed"
+            className="text-white/70 text-lg md:text-xl font-light mb-4 max-w-xl leading-relaxed"
           >
             Position your brand where the world meets. Our unique mix of entertainment 
             and retail drives unprecedented foot traffic and sustained engagement.
           </motion.p>
 
-          <div className="grid grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-2 gap-8 mb-8">
             {stats.map((stat, i) => (
               <motion.div
                 key={i}

@@ -58,14 +58,14 @@ export function SponsorshipSection({ scrollContainer }: Props) {
       <VideoBackground src="/videos/convention-expo.mp4" overlayOpacity={0.85} />
       
       <div className="max-w-7xl mx-auto relative z-10 w-full">
-        <header className="mb-20 text-center">
+        <header className="mb-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={vp}
           >
             <span className="text-gold uppercase tracking-[0.6em] text-[10px] font-black mb-6 block">The Partnership Ecosystem</span>
-            <h2 className="text-5xl md:text-[6rem] font-display text-white mb-10 leading-none">
+            <h2 className="text-5xl md:text-[6rem] font-display text-white mb-6 leading-none">
               A Global <span className="italic text-gold">Stage</span>
             </h2>
             <p className="text-white/50 text-xl max-w-3xl mx-auto font-light leading-relaxed">
@@ -84,7 +84,7 @@ export function SponsorshipSection({ scrollContainer }: Props) {
               viewport={vp}
               transition={{ delay: idx * 0.1 }}
               className={cn(
-                "group relative p-12 rounded-[48px] border border-white/5 bg-white/[0.03] backdrop-blur-2xl transition-all duration-700 flex flex-col hover:border-gold/30",
+                "group relative p-4 rounded-[48px] border border-white/5 bg-white/[0.03] backdrop-blur-2xl transition-all duration-700 flex flex-col hover:border-gold/30",
                 tier.highlight && "border-gold/20 bg-gold/[0.02] shadow-[0_40px_80px_rgba(212,175,55,0.1)]"
               )}
             >
@@ -94,8 +94,8 @@ export function SponsorshipSection({ scrollContainer }: Props) {
                 </div>
               )}
 
-              <div className="mb-12">
-                <div className="flex justify-between items-start mb-8">
+              <div className="mb-6">
+                <div className="flex justify-between items-start mb-4">
                   <div className="w-16 h-16 rounded-3xl bg-white/5 flex items-center justify-center group-hover:bg-gold/10 transition-colors border border-white/5">
                     {idx === 0 ? <Star className="text-gold" size={28} /> : idx === 1 ? <TrendingUp className="text-gold" size={28} /> : <ShieldCheck className="text-gold" size={28} />}
                   </div>
@@ -108,7 +108,7 @@ export function SponsorshipSection({ scrollContainer }: Props) {
                 <p className="text-white/40 text-sm font-light leading-relaxed">{tier.sub}</p>
               </div>
 
-              <ul className="space-y-5 mb-14 flex-1">
+              <ul className="space-y-5 mb-6 flex-1">
                 {tier.features.map((feature, fidx) => (
                   <li key={fidx} className="flex items-start gap-4 text-white/60 text-sm font-medium">
                     <div className="w-5 h-5 rounded-full bg-gold/10 flex items-center justify-center shrink-0 mt-0.5">
